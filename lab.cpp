@@ -106,7 +106,11 @@ int main()
     // Выводим значение, на которое указывает pointer, оно равно 72
     std::cout << *pointer;
 
+<<<<<<< HEAD
     // Создаем переменную memory типа StructWithArray и заполняем ее нулями
+=======
+    // Создаем переменную memory типа StructWithArray и заполняем ее 0-ми
+>>>>>>> update
     StructWithArray memory;
     memset(&memory, 0, sizeof(StructWithArray));
 
