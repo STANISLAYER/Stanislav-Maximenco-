@@ -3,9 +3,9 @@
 #include <string>
 using namespace std;
 
-int hello(int b, int c)
+ static int hello(int b, int c)
 {
-    return b + c; 
+   return b + c; 
 }
 int main()
 {
