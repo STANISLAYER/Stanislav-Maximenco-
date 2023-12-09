@@ -32,5 +32,5 @@ cout <<b;
 В терминале выдает следующее:
 ```cpp
 PS C:\Users\russi\source\repos\STANISLAYER\Stanislav-Maximenco-\3Laba> cd "c:\Users\russi\source\repos\STANISLAYER\Stanislav-Maximenco-\3Laba\" ; if ($?) { g++ 3lab.cpp -o 3lab } ; if ($?) { .\3lab }
-12 (то есть ответ 12,)
+12 (то есть 4+8 и того 12)
 ```
