@@ -3,9 +3,12 @@
 #include <string>
 using namespace std;
 
-int hello();
+int hello(int b, int c)
+{
+    return b + c; 
+}
 int main()
 {
- int b = hello();
+ int b = hello(3,6);
 cout <<b;
 }
